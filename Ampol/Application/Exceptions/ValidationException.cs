@@ -26,5 +26,7 @@ namespace Ampol.Application.Exceptions
         }
 
         public IDictionary<string, string[]> Errors { get; }
+
+
     }
 }

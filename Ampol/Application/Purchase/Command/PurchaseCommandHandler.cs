@@ -66,6 +66,8 @@ namespace Application.CalculatePurchase.Command
                 }
             }
 
+            await _context.SaveChangesAsync();
+
             return new PurchaseDto()
             {
                 CustomerId = request.CustomerId,
